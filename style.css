@@ -1,0 +1,50 @@
+#cookie-notice {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+#cookie-notice p {
+  margin: 0;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+}
+.button-decline {
+  background-color: #f00;
+}
+
+.button-accept {
+  background-color: #0f0;
+}
+.theme {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+  background-color: #020202;
+  margin: 0;
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  color: #fff;
+}
+.dark {
+  color-scheme: black;
+}
+@media (color-scheme: dark) {
+  .dark {
+    color: white;
+    background-color: black;
+  }
+}
+.light {
+  color-scheme: white;
+}
